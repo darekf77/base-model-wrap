@@ -1,6 +1,6 @@
 {
   "name": "base-model-wrap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Typescript base class for models in projects with typescript base frameworks",
   "main": "index.js",
   "scripts": {
