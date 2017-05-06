@@ -1,0 +1,30 @@
+{
+  "name": "base-model-wrap",
+  "version": "1.0.0",
+  "description": "Typescript base class for models in projects with typescript base frameworks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darekf77/base-model-wrap.git"
+  },
+  "keywords": [
+    "base",
+    "class",
+    "typescript",
+    "angular",
+    "react"
+  ],
+  "author": "Dariusz Filipiak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darekf77/base-model-wrap/issues"
+  },
+  "homepage": "https://github.com/darekf77/base-model-wrap#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "ng2-logger": "^1.0.2"
+  }
+}
