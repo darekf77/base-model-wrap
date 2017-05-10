@@ -46,8 +46,7 @@ export abstract class BaseModelWrap<T> {
     }
 
     public static rows<T, M = BaseModelWrap<T>>(data: T[], TCreator:
-        { new (any?): BaseModelWrap<T>; }, filterEmptyRow = false):
-        M[] {
+        { new (any?): BaseModelWrap<T>; }, filterEmptyRow = false): M[] {
 
         let res: BaseModelWrap<T>[] = [];
         if (filterEmptyRow) {
