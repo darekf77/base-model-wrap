@@ -45,8 +45,9 @@ export abstract class BaseModelWrap<T> {
         return !this.__data ? <T>{} : this.__data;
     }
 
-    public static rows<T>(data: T[], TCreator: { new (any?): BaseModelWrap<T>; }, filterEmptyRow = false):
-        BaseModelWrap<T>[] {
+    public static rows<T, M = BaseModelWrap<T>>(data: T[], TCreator:
+        { new (any?): BaseModelWrap<T>; }, filterEmptyRow = false):
+        M[] {
 
         let res: BaseModelWrap<T>[] = [];
         if (filterEmptyRow) {
@@ -54,7 +55,7 @@ export abstract class BaseModelWrap<T> {
             res.push((d).__forFilter())
         }
         if (data && Array.isArray(data)) data.forEach(f => res.push(new TCreator(f)));
-        return res;
+        return res as any;
     }
     private __forFilter(): BaseModelWrap<T> {
         this._isEmpty = true;
@@ -114,3 +115,17 @@ export abstract class BaseModelWrap<T> {
     }
 
 }
+
+
+// class DD extends BaseModelWrap<{}> {
+//     public clone(): DD {
+//         let raw: {} = this.raw();
+//         return new DD(raw);
+//     }
+
+// }
+
+
+// let d = DD.rows<any, DD>([], DD);
+
+
