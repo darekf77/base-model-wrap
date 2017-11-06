@@ -40,7 +40,7 @@ export abstract class BaseModelWrap<T> {
         this.__data = data;
     }
     private __insideModelsMapping?: model[]
-    private __data: T;
+    protected __data: T;
     protected get data(): T {
         return !this.__data ? <T>{} : this.__data;
     }

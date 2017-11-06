@@ -25,10 +25,13 @@
   },
   "homepage": "https://github.com/darekf77/base-model-wrap#readme",
   "dependencies": {
+    "@types/json5": "0.0.29",
+    "json5": "^0.5.1",
     "lodash": "^4.17.4",
     "ng2-logger": "^1.0.2"
   },
   "devDependencies": {
+    "@types/node": "^8.0.47",
     "typescript": "^2.3.2"
   }
 }
