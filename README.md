@@ -44,3 +44,22 @@ and inside template:
 ...
 ```
 
+## Models inside models ##
+```ts
+interface RawData {
+    fatPercentage: number;
+    bodyWeight: number;
+}
+
+class Calories extends BaseModelWrap<RawData> {
+		
+	constructor( data:RawData ) {
+		super(data)
+	}
+	
+	get fat() {
+		return this.data.fatPercentage
+	}	
+
+}
+```
