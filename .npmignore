@@ -1,17 +1,12 @@
-
-
-
-
-# Node generated files
-node_modules
-npm-debug.log
-# OS generated files
-Thumbs.db
-.DS_Store
-# Ignored files
-/aot
+.vscode
+dist/
+src/
 /scripts
-
-/src/**/*.ts
-!/src/**/*.d.ts
-
+/docs
+/preview
+/tests
+tsconfig.json
+npm-debug.log*
+.npmrc
+tslint.json
+.editorconfig

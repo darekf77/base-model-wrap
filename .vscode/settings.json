@@ -1,8 +1,9 @@
 {
-    "files.exclude": {
-        "**/*.js": true,
-        "**/*.js.map": true,
-        "**/*.d.ts": true
-    },
-    "html.format.wrapAttributes": "force-aligned"
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#355c54",
+    "statusBar.background": "#355c54",
+    "statusBar.debuggingBackground": "#355c54"
+  },
+  "files.exclude": {},
+  "html.format.wrapAttributes": "force-aligned"
 }
