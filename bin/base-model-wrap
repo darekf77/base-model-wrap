@@ -3,6 +3,7 @@
 // console.log('-- FIREDEV started... please wait. --')
 // require('cache-require-paths');
 var path = require('path');
-var start = require(path.join(__dirname, '../bundle/index.js')).default;
-// console.log(bundle)
+var bundle = require(path.join(__dirname, '../bundle/index.js'));
+var start = bundle.default;
+console.log(bundle.helo)
 start(process.argv);

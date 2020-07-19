@@ -6,6 +6,10 @@ export default function sayHello() {
   console.log('hehehe inside')
 }
 
+export function helo() {
+  console.log('aaaa')
+}
+
 // sayHello();
 
 //#region @backend
