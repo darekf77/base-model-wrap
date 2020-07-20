@@ -14,4 +14,4 @@ export function helo() {
 
 //#region @backend
 export * from './node-base-class';
-//#region
+//#endregion
