@@ -12,7 +12,12 @@
       ],
       "dependencies": {}
     },
-    "linkedProjects": []
+    "linkedProjects": [],
+    "libReleaseOptions": {
+      "nodts": false,
+      "obscure": false,
+      "ugly": false
+    }
   },
   "name": "base-model-wrap",
   "version": "3.0.8",
