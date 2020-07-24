@@ -15,7 +15,7 @@
     "linkedProjects": [],
     "libReleaseOptions": {
       "nodts": false,
-      "obscure": false,
+      "obscure": true,
       "ugly": false
     }
   },
