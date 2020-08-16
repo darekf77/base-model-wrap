@@ -10,7 +10,8 @@
         "lodash",
         "ng2-logger"
       ],
-      "dependencies": {}
+      "dependencies": {},
+      "linkedFolders": []
     },
     "linkedProjects": [],
     "libReleaseOptions": {
