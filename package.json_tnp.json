@@ -1,0 +1,37 @@
+{
+  "resources": [],
+  "type": "isomorphic-lib",
+  "version": "v2",
+  "overrided": {
+    "ignoreDepsPattern": [],
+    "includeAsDev": [],
+    "includeOnly": [
+      "lodash",
+      "ng2-logger"
+    ],
+    "dependencies": {},
+    "linkedFolders": []
+  },
+  "linkedProjects": [],
+  "libReleaseOptions": {
+    "nodts": false,
+    "obscure": true,
+    "ugly": false
+  },
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "description": "Typescript base class for models in projects with typescript base frameworks",
+  "author": "Dariusz Filipiak",
+  "homepage": "https://github.com/darekf77/base-model-wrap#readme",
+  "main": "index.js",
+  "keywords": [
+    "base",
+    "class",
+    "typescript",
+    "angular",
+    "react"
+  ]
+}
