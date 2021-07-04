@@ -299,6 +299,6 @@
     "webpack-cli": "3.3.11",
     "zone.js": "0.10.2"
   },
-  "private": false,
+  "private": true,
   "lastBuildTagHash": "a7062fc33fa637f15448b37198be39dbecc73874"
 }
