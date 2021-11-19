@@ -34,7 +34,8 @@
       "typescript",
       "angular",
       "react"
-    ]
+    ],
+    "workerPlugins": {}
   },
   "name": "base-model-wrap",
   "version": "3.0.13",

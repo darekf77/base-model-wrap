@@ -33,5 +33,6 @@
     "typescript",
     "angular",
     "react"
-  ]
+  ],
+  "workerPlugins": {}
 }
