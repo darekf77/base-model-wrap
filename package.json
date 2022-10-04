@@ -35,7 +35,8 @@
       "angular",
       "react"
     ],
-    "workerPlugins": {}
+    "workerPlugins": {},
+    "linkedRepos": []
   },
   "name": "base-model-wrap",
   "version": "3.0.13",
@@ -43,7 +44,6 @@
     "base-model-wrap": "bin/base-model-wrap"
   },
   "description": "Typescript base class for models in projects with typescript base frameworks",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -295,8 +295,5 @@
     "zone.js": "0.10.2"
   },
   "private": true,
-  "lastBuildTagHash": "a7062fc33fa637f15448b37198be39dbecc73874",
-  "recreatedFrom": {
-    "tnp.json": true
-  }
+  "lastBuildTagHash": "a7062fc33fa637f15448b37198be39dbecc73874"
 }
