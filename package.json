@@ -36,7 +36,9 @@
       "react"
     ],
     "workerPlugins": {},
-    "linkedRepos": []
+    "linkedRepos": [],
+    "smartContainerTarget": "",
+    "smartContainerBuildTarget": ""
   },
   "name": "base-model-wrap",
   "version": "3.0.13",
