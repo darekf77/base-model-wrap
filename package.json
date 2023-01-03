@@ -17,7 +17,8 @@
     "libReleaseOptions": {
       "nodts": false,
       "obscure": true,
-      "ugly": false
+      "ugly": false,
+      "includeNodeModules": false
     },
     "type": "isomorphic-lib",
     "version": "v2",
