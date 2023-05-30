@@ -9,7 +9,8 @@
         "ng2-logger"
       ],
       "dependencies": {},
-      "linkedFolders": []
+      "linkedFolders": [],
+      "npmFixes": []
     },
     "linkedProjects": [],
     "smartContainerBuildTarget": "",
