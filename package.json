@@ -19,7 +19,9 @@
       "nodts": false,
       "obscure": true,
       "ugly": false,
-      "includeNodeModules": false
+      "cliBuildNoDts": false,
+      "cliBuildObscure": false,
+      "cliBuildIncludeNodeModules": false
     },
     "type": "isomorphic-lib",
     "version": "v2",
