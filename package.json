@@ -21,6 +21,7 @@
       "ugly": false,
       "cliBuildNoDts": false,
       "cliBuildObscure": false,
+      "cliBuildUglify": false,
       "cliBuildIncludeNodeModules": false
     },
     "type": "isomorphic-lib",
@@ -61,5 +62,6 @@
     "react"
   ],
   "name": "base-model-wrap",
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "main": "index.js"
 }
