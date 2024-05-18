@@ -2,22 +2,16 @@
   "tnp": {
     "resources": [],
     "overrided": {
-      "ignoreDepsPattern": [],
-      "includeAsDev": [],
-      "includeOnly": [
-        "lodash",
-        "ng2-logger"
-      ],
-      "dependencies": {},
       "linkedFolders": [],
-      "npmFixes": []
+      "ignoreDepsPattern": [],
+      "npmFixes": [],
+      "includeAsDev": [],
+      "includeOnly": [],
+      "dependencies": {}
     },
     "smartContainerBuildTarget": "",
     "linkedRepos": [],
     "libReleaseOptions": {
-      "nodts": false,
-      "obscure": true,
-      "ugly": false,
       "cliBuildNoDts": false,
       "cliBuildObscure": false,
       "cliBuildUglify": false,
